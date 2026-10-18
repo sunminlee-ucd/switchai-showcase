@@ -1,5 +1,9 @@
 # SwitchAI
 
+[![Public sample checks](https://github.com/sunminlee-ucd/switchai-showcase/actions/workflows/sample-checks.yml/badge.svg)](https://github.com/sunminlee-ucd/switchai-showcase/actions/workflows/sample-checks.yml)
+
+*Checks cover the standalone public sample; full application integration and deployment are outside their scope.*
+
 **An AI request-routing prototype that chooses an execution path using task requirements, budget, privacy constraints, and configured quality/reliability thresholds.**
 
 I am developing SwitchAI to move model-selection and execution-policy decisions into a backend service. A simple request may need a deterministic function; a more demanding request may need a provider model, verification, and a carefully bounded fallback path.
