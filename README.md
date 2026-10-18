@@ -13,6 +13,8 @@ I am developing SwitchAI to move model-selection and execution-policy decisions 
 
 [Problem and motivation](#problem-and-motivation) · [Architecture](#architecture) · [Core engineering](#core-engineering) · [Technology stack](#technology-stack) · [Verification and limitations](#verification-and-limitations)
 
+**Inspect runnable code:** [source-derived route selector, synthetic candidate demo, and tests](examples/). No provider credentials or paid calls are required.
+
 ## Problem and motivation
 
 Choosing an AI model involves more than picking a familiar name. Providers describe differences in capability, speed, and cost; see Anthropic's [model-selection guidance](https://platform.claude.com/docs/en/about-claude/models/choosing-a-model).
